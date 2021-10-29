@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green: #5bcefa;
+  --purple: #f5a9b8;
+  --white: #ffffff;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
+.top-bar {
+  padding-top: 15px;
+}
+.logo {
+  width: 40px;
+}
+.mid-text {
+  text-align: right;
+  margin-right: 300px;
+}
+
+.last {
+  background-color: red;
+}
+.ban {
+  justify-content: flex-end;
+}
+.bangladesh {
+  width: 80px;
+  align-self: flex-end;
+  margin-left: 30px;
+}
+.navItem {
+  justify-content: space-between;
+}
+.navItem {
+  margin-left: 70px;
+}
+.nav-link {
+  color: #f70938;
+}
+.hero {
+  background-image: url(/images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+.button {
+  width: 140px;
+  height: 140px;
+  background-color: var(--green);
+}
+.nibo-btn {
+  background-color: var(--green);
+  margin-top: 10px;
+}
+.left-col {
+  margin-top: 50px;
+}
+.image {
+  padding-top: 95px;
+  align-self: end;
+  width: 100%;
+}
+.khabor {
+  padding-top: 40px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.news {
+  padding-top: 30px;
+}
+.khobor {
+  width: 95%;
+  padding-top: 10px;
+}
+span {
+  color: var(--green);
+}
+.left-column {
+  display: flex;
+}
+.recent-left {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+.left-column img {
+  width: 155px;
+  height: 100px;
+}
+.left-column p {
+  font-size: 10px;
+  padding-top: 0px;
+  width: 80%;
+}
+.date {
+  padding-top: -5px;
+}
+.faq h4 {
+  text-align: center;
+  padding-top: 50px;
+}
+#accordionExample {
+  padding-top: 20px;
+}
+.foot a {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .image {
+    padding-top: 113px;
+    align-self: end;
+    width: 100%;
+  }
+}
