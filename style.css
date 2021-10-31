@@ -114,6 +114,10 @@ span {
   text-decoration: none;
 }
 
+.aim {
+  padding-top: 50px;
+}
+
 @media (max-width: 992px) {
   .image {
     padding-top: 113px;
