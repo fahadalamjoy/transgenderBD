@@ -117,6 +117,13 @@ span {
 .aim {
   padding-top: 50px;
 }
+.nibondhon {
+  text-decoration: none;
+  color: black;
+}
+.karzo {
+  margin-left: 40px;
+}
 
 @media (max-width: 992px) {
   .image {
